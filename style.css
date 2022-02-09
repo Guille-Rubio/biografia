@@ -1,0 +1,324 @@
+/* 
+Paleta
+#2A64C5 Azul
+#BFC0C5 Gris
+*/
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    border: 0px dotted red;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    padding:0px;
+    margin:0px;
+    min-height:100vh;
+    min-width:200px;
+    overflow-x: scroll;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+
+header nav a:hover{
+    border-bottom:2px solid #2A64C5;
+}
+
+header>nav ul{
+    padding:0px;
+    list-style: none;
+    margin:auto;
+    width:97vw;
+}
+
+header>nav li{
+    padding: 5px;
+    border: 2px solid #BFC0C5;
+    text-align:center;
+}
+
+header>nav{
+    display:flex;
+}
+
+main{
+    text-align:center;
+}
+
+.name-section{
+    text-align:center;
+}
+
+.learn-buy-box{
+    max-width: 40vw;
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+}
+.learn-buy-box a{
+    color:#2A64C5;
+}
+.learn-buy-box a:visited{
+    color:#2A64C5;
+}
+
+
+.flex-container{
+    flex-wrap: wrap;
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.about{
+    padding:5vw;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.about p{
+    text-align:justify;
+    max-width:400px;
+}
+
+main{
+    margin:0px auto;
+}
+
+main img{
+    max-width:300px;
+    border-radius: 15px;;
+}
+
+footer{
+    bottom:0px;
+    width:100%;
+    background-color: #BFC0C5;
+    color:white;
+    margin-top:auto;
+    height:auto;
+}
+
+footer>section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+footer iframe{    
+    margin:auto;
+    padding-top: 5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+footer nav{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer ul{
+    margin:auto;
+    justify-content: center;
+    list-style: none;
+    padding:0px;
+}
+
+footer li{
+    padding:5px 5vw; 
+}
+
+footer a:visited{
+    color:white;
+}
+
+footer address{
+    padding-left:5vw;
+}
+
+small{
+    display:block;
+    margin:auto;
+}
+
+.biography-tree-container{
+    display:flex;
+    flex-wrap:wrap; 
+    margin:auto;
+    padding:3vw;  
+}
+
+.bio-card{
+    width:100%;
+}
+
+.biography-tree-container h3{
+    padding:5px;
+    margin:15px;
+    font-weight: 900;    
+}
+
+.biography-tree-container p{
+    text-align:justify;
+    border-bottom:1px solid #2A64C5;
+    border-top:1px solid #2A64C5;
+    padding:3vw;
+}
+
+
+.year-tag{
+    margin:auto;
+    color: #2A64C5;
+}
+
+.contacto{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#form{
+    text-align: left;
+    padding: 10px 6vw;
+    margin:25px auto;
+    border:1px solid #2A64C5;
+    border-radius: 15px;
+}
+
+form>h1{
+    margin:5px;
+}
+
+form div{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+label{
+    margin:5px;
+    padding-top:5px;
+}
+
+textarea{
+    display:block;
+}
+
+input{
+    display:block;
+    border:1px solid #2A64C5;
+    border-radius: 5px;
+    margin:5px;
+    width:66%;
+}
+
+input[type="checkbox"]{
+    display:inline;
+    margin:15px;
+    padding:auto;
+    width:auto;
+    border:none;
+
+
+}
+
+
+
+textarea{
+    border:1px solid #2A64C5;
+    border-radius: 5px;
+}
+.portfolio{
+    padding: 25px;
+    text-align:justify;   
+}
+
+.portfolio dt{
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+body{
+    height: 100%;
+}
+
+header>nav{
+    display:flex;
+    flex-direction: row;
+}
+
+header>nav ul{
+    padding:0px;
+    list-style: none; 
+    width:100%;
+    margin:0;
+}
+    
+header>nav li{
+    display:inline-block;
+    padding: 10px;
+    margin-top:15px;
+    margin-left:20px;
+    border: 0px;
+    text-align:left;
+}
+
+
+.biography-tree-container p{
+    text-align:justify;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.bio-card{
+    display:flex;
+    align-content: flex-start;
+    margin: 30px;
+}
+
+.year-tag{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    width:20%;
+    height:100%;
+    border:1px solid #2A64C5;
+}
+
+.bio-milestone{
+    width:80%;
+
+}
+
+.bio-card h3{
+    align-self: center;
+
+}
+
+footer{
+    height: 100%;
+
+}
+
+footer a:visited{
+    color:white;
+}
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+}
